@@ -66,4 +66,5 @@ class Director(Empleado):
         return self.experiencia
 
 
-x = Programador('Luis', '1', 'soltero', )
+x = Programador("Johan", 1202, 20, "Soltero", 1200, 8, "Python")
+print(x.get_salario())

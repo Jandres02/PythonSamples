@@ -24,7 +24,7 @@ class cuenta_bancaria:
             print('saldo insuficiente')
 
 
-yo = cuenta_bancaria(1000, 'papi yo', 'ahorro')
+yo = cuenta_bancaria(1000, 'me', 'ahorro')
 yo.display()
 yo.depositar(100)
 yo.retirar(50)

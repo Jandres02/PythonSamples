@@ -13,7 +13,7 @@ class imc:
 
             if imc < 18.5:
                 print(
-                    f'El IMC de {self.nombre} es {imc} y se encuentra por debajo')
+                    f'El IMC de {self.nombre} es {imc} y se encuentra por debajo de lo ideal')
             elif imc >= 18.5 and imc <= 24.9:
                 print(
                     f'El IMC de {self.nombre} es {imc} y tiene peso ideal')
@@ -26,3 +26,6 @@ class imc:
             elif imc > 35:
                     print(
                     f'El IMC de {self.nombre} es {imc} y tiene obesidad morbida')
+
+test = imc("Johan",188,68)
+test.consulta()

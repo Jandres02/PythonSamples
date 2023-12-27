@@ -18,3 +18,4 @@ class cundinamarca(atlantico):
 
 busqueda = cundinamarca()
 busqueda.capital()
+busqueda.population()
